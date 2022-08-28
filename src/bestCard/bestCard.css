@@ -1,0 +1,9 @@
+.container-best-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1px;
+    padding-left: 40px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
