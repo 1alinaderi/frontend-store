@@ -22,7 +22,7 @@ function App() {
   return (
     <Context.Provider value={{addingCart:addCart  , setaddingCart : setaddCart , transfer : transfer , settransfer : settransfer}}>
       <Routes>
-      <Route path="/" element={<HomePage/>} />
+      <Route path="/frontend-store" element={<HomePage/>} />
       <Route path="/login" element={<LoginPage/>} />
       <Route path="/cart" element={<CartPage/>} />
       <Route path="/category-women-clothing" element={<WClothingPage/>} />
